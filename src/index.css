@@ -1,3 +1,101 @@
-body {
+/*==========================reset==========================*/
+html {
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+}
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body.no-scroll {
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+p {
+  word-break: break-all;
+}
+button,
+input {
+  background: none;
+  border: none;
+  color: inherit;
+}
+button:enabled {
+  cursor: pointer;
+}
+img {
+  vertical-align: top;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+h1,
+h2,
+h3 {
+  font: inherit;
+}
+ol,
+ul {
+  list-style: none;
+}
+/* progress {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+::-webkit-progress-bar {
+  background-color: var(--point-color-2);
+}
+
+::-webkit-progress-value {
+  background-color: var(--point-color-1);
+} */
+
+/*==========================font==========================*/
+@font-face {
+  font-family: "BookkMyungjo_Bold";
+  font-weight: normal;
+  src: url("./asset/font/BookkMyungjo_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BookkMyungjo_Light";
+  font-weight: normal;
+  src: url("./asset/font/BookkMyungjo_Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cafe24Behappy";
+  font-weight: normal;
+  src: url("./asset/font/Cafe24Behappy.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cafe24Meongi-B";
+  font-weight: normal;
+  src: url("./asset/font/Cafe24Meongi-B-v1.0.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cafe24Meongi-w";
+  font-weight: normal;
+  src: url("./asset/font/Cafe24Meongi-W-v1.0.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Hakgyoansim-Chilpanjiugae-B";
+  font-weight: normal;
+  src: url("./asset/font/Hakgyoansim-Chilpanjiugae-B.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Hakgyoansim-Chilpanjiugae-L";
+  font-weight: normal;
+  src: url("./asset/font/Hakgyoansim-Chilpanjiugae-L.ttf") format("truetype");
+}
+
+body {
 }
