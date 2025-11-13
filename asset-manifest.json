@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a4b2403.css",
+    "main.js": "/static/js/main.e5bc1bad.js",
+    "static/media/BookkMyungjo_Bold.ttf": "/static/media/BookkMyungjo_Bold.464cf2f6a040e03a6178.ttf",
+    "static/media/BookkMyungjo_Light.ttf": "/static/media/BookkMyungjo_Light.6ee65a5a8ef5767684a7.ttf",
+    "static/media/main-bg.png": "/static/media/main-bg.c31d57927f4bfb99d486.png",
+    "static/media/Hakgyoansim-Chilpanjiugae-L.ttf": "/static/media/Hakgyoansim-Chilpanjiugae-L.21defb520396ebfd97f9.ttf",
+    "static/media/Hakgyoansim-Chilpanjiugae-B.ttf": "/static/media/Hakgyoansim-Chilpanjiugae-B.c8125e33610246f70fcc.ttf",
+    "static/media/Cafe24Behappy.ttf": "/static/media/Cafe24Behappy.c3ff7d5e867ee83a9d27.ttf",
+    "static/media/Cafe24Meongi-W-v1.0.woff2": "/static/media/Cafe24Meongi-W-v1.0.856fbd5b7193aaa2bae8.woff2",
+    "static/media/invi-box-bg.png": "/static/media/invi-box-bg.06744b379a784edc5e8b.png",
+    "static/media/main-title-1.svg": "/static/media/main-title-1.0bbb0217e55ceb4238385b0614630fb6.svg",
+    "static/media/Cafe24Meongi-B-v1.0.woff2": "/static/media/Cafe24Meongi-B-v1.0.39855955f2d5ae52d728.woff2",
+    "index.html": "/index.html",
+    "main.1a4b2403.css.map": "/static/css/main.1a4b2403.css.map",
+    "main.e5bc1bad.js.map": "/static/js/main.e5bc1bad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a4b2403.css",
+    "static/js/main.e5bc1bad.js"
+  ]
+}
