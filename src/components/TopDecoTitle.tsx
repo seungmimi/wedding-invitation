@@ -12,7 +12,7 @@ const DecoTitleBox = styled.h3`
   text-align: center;
   line-height: 34px;
   font-size: 1.625rem;
-  color: #47778b;
+  color: #d77200;
   font-family: "Cafe24Behappy";
 `;
 

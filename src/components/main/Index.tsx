@@ -1,21 +1,14 @@
 import styled from "styled-components";
-import img from "../../asset/invi-main-img.png";
 import { ReactComponent as Title1 } from "../../asset/main-title-1.svg";
-import decoImg1 from "../../asset/deco-img-1.png";
 
 interface TitleBoxProps {
   position: string;
 }
 
 const MainBox = styled.section`
-  margin-bottom: 18px;
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(${img});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   overflow: hidden;
 `;
 
@@ -23,7 +16,7 @@ const TitleBox = styled.div<TitleBoxProps>`
   width: 100%;
   position: absolute;
   left: 50%;
-  ${(props) => (props.position === "top" ? "top" : "bottom")}: 15%;
+  ${(props) => (props.position === "top" ? "top" : "bottom")}: 10%;
   transform: translateX(-50%);
   text-align: center;
 `;
@@ -33,36 +26,49 @@ const MainTitle = styled.h1`
   top: 32px;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff;
-  font-family: "Cafe24Meongi-w";
+  color: #d77200;
+  font-family: "Cafe24Meongi-b";
   font-size: 4.5rem;
+  line-height: 3rem;
+  z-index: -1;
 `;
 
 const SubTitle = styled.div`
+  width: fit-content;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-family: "Hakgyoansim-Chilpanjiugae-B";
+  gap: 1rem;
+  padding: 0px 40px;
+  font-family: "Cafe24Behappy";
   color: #fff;
-  font-size: 1.875rem;
+  font-size: 3.125rem;
   div {
     display: flex;
-    align-items: center;
-    gap: 5px;
+    flex-direction: column;
+    text-align: start;
+  }
+  div.line {
+    height: 150px;
+    width: 2px;
+    background-color: #fff;
   }
   img {
     max-width: 41px;
+  }
+  span {
+    text-align: start;
+    b {
+      color: #d77200;
+    }
   }
   strong {
     display: flex;
     align-items: flex-end;
     gap: 6px;
-    font-family: "Cafe24Behappy";
     font-size: 3.125rem;
     letter-spacing: 0.125rem;
     text-shadow: 0px 11px 10px rgba(0, 0, 0, 0.2);
     span {
-      font-family: "Cafe24Behappy";
       font-size: 1.8rem;
       color: rgba(255, 255, 255, 0.5);
       padding: 0 6px 4px 0;
@@ -86,13 +92,16 @@ export default function Main() {
       <TitleBox position="bottom">
         <SubTitle>
           <div>
-            <span>기범</span>
-            <img src={decoImg1} alt="" />
-            <span>승미</span>
+            <span>
+              KI BOM <b>`</b> SEUNG MI
+            </span>
+            <span>WEDDING DAY!</span>
+            <strong>
+              2026.04.11 <span>sat</span>
+            </strong>
           </div>
-          <strong>
-            2026.04.11 <span>sat</span> 11:00
-          </strong>
+          <div className="line"></div>
+          <span>11:00 AM</span>
         </SubTitle>
       </TitleBox>
     </MainBox>

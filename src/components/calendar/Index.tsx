@@ -65,7 +65,7 @@ const diffDays = Math.ceil((+targetDate - +today) / (1000 * 60 * 60 * 24));
 
 export default function WeddingDay() {
   return (
-    <Box isBg={true}>
+    <Box>
       <TopDecoTitle>WEDDING DAY</TopDecoTitle>
       <TextBpx>
         <strong>
