@@ -1,10 +1,13 @@
-import { Box } from "../ContentBox";
-import TopDecoTitle from "../TopDecoTitle";
+import { Box } from "../../asset/ui/ContentBox";
+import TopDecoTitle from "../../asset/ui/TopDecoTitle";
 import decoLine from "../../asset/deco-line-1.png";
 import styled from "styled-components";
 import Calendar from "./Calendar";
 
 import DecoImg from "../../asset/day-deco.png";
+import SideDeco from "../../asset/deco-img-1.png";
+
+import moment from "moment";
 
 const TextBpx = styled.div`
   width: 100%;
@@ -12,21 +15,22 @@ const TextBpx = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  color: #47778b;
   strong {
     display: flex;
     align-items: center;
     gap: 6px;
-    font-family: "Cafe24Meongi-B";
-    font-size: 2rem;
-    span {
-      font-size: 1.5rem;
-      color: rgba(71, 119, 139, 0.5);
-    }
+    font-family: "Cafe24Behappy";
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+    color: #d77200;
   }
   > span {
-    font-size: 1.25rem;
-    font-family: "Hakgyoansim-Chilpanjiugae-B";
+    font-size: 1.5rem;
+    font-family: "GangwonEducationModuche";
+    color: #606f48;
+    b {
+      font-weight: 700;
+    }
   }
 `;
 
@@ -39,10 +43,13 @@ const CalendarBox = styled.div`
   img {
     width: 100%;
   }
+  + img {
+    max-width: 140px;
+  }
 `;
 
 const DDayInfo = styled.p`
-  font-family: "Hakgyoansim-Chilpanjiugae-L";
+  font-family: "GangwonEducationModuche";
   font-size: 1.25rem;
   color: #666;
   & img {
@@ -52,32 +59,33 @@ const DDayInfo = styled.p`
   }
   & strong {
     font-size: 1.5rem;
-    font-family: "Hakgyoansim-Chilpanjiugae-B";
+    font-weight: 700;
     &.days {
-      color: #47778b;
+      color: #606f48;
     }
   }
 `;
 
-const today: Date = new Date();
-const targetDate: Date = new Date("2026-4-11");
-const diffDays = Math.ceil((+targetDate - +today) / (1000 * 60 * 60 * 24));
+const today = moment();
+const targetDate = moment("2026-4-11");
+const diffDays = targetDate.diff(today, "day");
 
 export default function WeddingDay() {
   return (
     <Box>
       <TopDecoTitle>WEDDING DAY</TopDecoTitle>
       <TextBpx>
-        <strong>
-          2026<span>/</span>4<span>/</span>11
-        </strong>
-        <span>토요일 오전 11시</span>
+        <strong>2026.04.11</strong>
+        <span>
+          토요일 오전 <b>11시</b>
+        </span>
       </TextBpx>
       <CalendarBox>
         <img src={decoLine} alt="" />
         <Calendar />
         <img src={decoLine} alt="" />
       </CalendarBox>
+      <img src={SideDeco} alt="" />
       <DDayInfo>
         <strong>
           기범

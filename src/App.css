@@ -3,6 +3,10 @@
   background-color: #f1eee9;
 }
 
+.bg-white {
+  background-color: #f4f4f4 !important;
+}
+
 .main-wrap {
   margin: 0 auto;
   width: 100%;

@@ -1,4 +1,4 @@
-import TopDecoTitle from "../TopDecoTitle";
+import TopDecoTitle from "../../asset/ui/TopDecoTitle";
 import InviBoxBg from "../../asset/invi-box-bg.png";
 import decoImg from "../../asset/deco-img-1.png";
 import styled from "styled-components";
@@ -44,7 +44,7 @@ const TextBox = styled.p`
   color: #333;
   img {
     display: block;
-    max-width: 41px;
+    max-width: 140px;
     padding-top: 24px;
     margin: 0 auto;
   }

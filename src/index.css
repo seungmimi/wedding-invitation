@@ -62,6 +62,19 @@ ul {
 
 /*==========================font==========================*/
 @font-face {
+  font-family: "GangwonEducationModuche";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFLightA.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GangwonEducationModuche";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
   font-family: "BookkMyungjo_Bold";
   font-weight: normal;
   src: url("./asset/font/BookkMyungjo_Bold.ttf") format("truetype");
@@ -96,6 +109,38 @@ ul {
   font-weight: normal;
   src: url("./asset/font/Hakgyoansim-Chilpanjiugae-L.ttf") format("truetype");
 }
+/*==========================icon==========================*/
+.icon {
+  vertical-align: middle;
+  display: inline-flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.icon::before {
+  display: inline-block;
+  content: "";
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
 
-body {
+.icon-close {
+  width: 25px;
+  height: 25px;
+  background-image: url("../src/asset/i-close.svg");
+}
+
+/*==========================slick-slide custom==========================*/
+.custom .slick-prev {
+  left: 10px;
+  z-index: 11;
+}
+.custom .slick-next {
+  right: 15px;
+  z-index: 11;
+}
+
+.custom .slick-dots {
+  bottom: 50px;
 }
