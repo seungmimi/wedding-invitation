@@ -67,7 +67,7 @@ const DDayInfo = styled.p`
 `;
 
 const today = moment();
-const targetDate = moment("2026-4-11");
+const targetDate = moment("2026/4/11");
 const diffDays = targetDate.diff(today, "day");
 
 export default function WeddingDay() {
