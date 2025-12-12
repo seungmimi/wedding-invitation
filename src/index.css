@@ -131,6 +131,18 @@ ul {
   background-image: url("../src/asset/i-close.svg");
 }
 
+.icon-arrow-up {
+  width: 30px;
+  height: 30px;
+  background-image: url("../src/asset/i-arrow-up.svg");
+}
+
+.icon-arrow-down {
+  width: 30px;
+  height: 30px;
+  background-image: url("../src/asset/i-arrow-down.svg");
+}
+
 /*==========================slick-slide custom==========================*/
 .custom .slick-prev {
   left: 10px;

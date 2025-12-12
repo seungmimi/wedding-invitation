@@ -8,6 +8,7 @@ import Snap from "./components/snap/Index";
 
 import Main from "./components/main/Index";
 import Guestbook from "./components/guestbook";
+import Account from "./components/account";
 
 function App() {
   const kakao = (window as any).Kakao;
@@ -35,6 +36,7 @@ function App() {
         <MapInfo />
         <Snap />
         <Guestbook />
+        <Account />
       </main>
       <footer>
         <button onClick={shareKakao}>카카오톡 공유</button>
