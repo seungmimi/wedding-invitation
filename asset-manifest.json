@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/wedding-invitation/static/css/main.7b9875a6.css",
+    "main.js": "/wedding-invitation/static/js/main.27cb800d.js",
+    "static/media/BookkMyungjo_Bold.ttf": "/wedding-invitation/static/media/BookkMyungjo_Bold.464cf2f6a040e03a6178.ttf",
+    "static/media/BookkMyungjo_Light.ttf": "/wedding-invitation/static/media/BookkMyungjo_Light.6ee65a5a8ef5767684a7.ttf",
+    "static/media/Hakgyoansim-Chilpanjiugae-L.ttf": "/wedding-invitation/static/media/Hakgyoansim-Chilpanjiugae-L.21defb520396ebfd97f9.ttf",
+    "static/media/main-bg-1.png": "/wedding-invitation/static/media/main-bg-1.df9cd8e66e5d7c888ece.png",
+    "static/media/Hakgyoansim-Chilpanjiugae-B.ttf": "/wedding-invitation/static/media/Hakgyoansim-Chilpanjiugae-B.c8125e33610246f70fcc.ttf",
+    "static/media/main-bg-2.png": "/wedding-invitation/static/media/main-bg-2.4e0d5bcfedcc5cd58806.png",
+    "static/media/Cafe24Behappy.ttf": "/wedding-invitation/static/media/Cafe24Behappy.c3ff7d5e867ee83a9d27.ttf",
+    "static/media/Cafe24Meongi-W-v1.0.woff2": "/wedding-invitation/static/media/Cafe24Meongi-W-v1.0.856fbd5b7193aaa2bae8.woff2",
+    "static/media/invi-box-bg.png": "/wedding-invitation/static/media/invi-box-bg.06744b379a784edc5e8b.png",
+    "static/media/guestbook-box.png": "/wedding-invitation/static/media/guestbook-box.f40ccf72349a9617cca4.png",
+    "static/media/main-title-1.svg": "/wedding-invitation/static/media/main-title-1.0bbb0217e55ceb4238385b0614630fb6.svg",
+    "static/media/Cafe24Meongi-B-v1.0.woff2": "/wedding-invitation/static/media/Cafe24Meongi-B-v1.0.39855955f2d5ae52d728.woff2",
+    "static/media/deco-img-1.png": "/wedding-invitation/static/media/deco-img-1.3799f47c5f1e4d2fbfa7.png",
+    "static/media/slick.svg": "/wedding-invitation/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/wedding-invitation/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/wedding-invitation/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/wedding-invitation/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/wedding-invitation/index.html",
+    "static/media/i-close.svg": "/wedding-invitation/static/media/i-close.10eb6712a99633025720.svg",
+    "static/media/i-arrow-down.svg": "/wedding-invitation/static/media/i-arrow-down.8d5853e3966a91f56161.svg",
+    "static/media/i-arrow-up.svg": "/wedding-invitation/static/media/i-arrow-up.543963b43e1085d7aa20.svg",
+    "main.7b9875a6.css.map": "/wedding-invitation/static/css/main.7b9875a6.css.map",
+    "main.27cb800d.js.map": "/wedding-invitation/static/js/main.27cb800d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b9875a6.css",
+    "static/js/main.27cb800d.js"
+  ]
+}
