@@ -76,11 +76,10 @@ export default function AddGuestBookModal(props: AddModalProps) {
   const [writer, setWriter] = useState("");
 
   const handleSubmit = () => {
-    const now = new Date();
     const submitData = {
       content: content,
       name: writer,
-      date: moment(now).format("YYYY.MM.DD HH:mm"),
+      date: moment().format("YYYY.MM.DD HH:mm"),
     };
     props.addDoc(submitData);
   };
