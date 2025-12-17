@@ -22,20 +22,18 @@ const TextBox = styled.div`
 const LocationInfo = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   padding: 0 20px;
   .infoObj {
     display: flex;
-    gap: 4px;
+    gap: 10px;
     color: #606f48;
     font-family: "GangwonEducationModuche";
+    font-size: 1.25rem;
     .infoTitle {
-      width: 60px;
+      width: 80px;
       flex-shrink: 0;
       font-weight: 700;
-    }
-    .infoContnet {
-      max-width: 215px;
     }
   }
 `;
@@ -44,7 +42,7 @@ export default function MapInfo() {
   const locationInfo = [
     { method: "지하철", content: "4호선 범계역 7번 출구 도보 2분" },
     { method: "버스", content: "동안경찰서 · 범계역 정류장 하차" },
-    { method: "주차안내", content: "건물 지하 주차장 이용(2시간 무료) *주차요원 안내에 따라 이동해주세요" },
+    { method: "주차안내", content: "건물 지하 주차장 이용(2시간 무료)", desc: "*주차요원 안내에 따라 이동해주세요" },
   ];
   return (
     <Box>
@@ -84,7 +82,10 @@ export default function MapInfo() {
           return (
             <div className="infoObj" key={i}>
               <span className="infoTitle">{e.method}</span>
-              <p className="infoContent">{e.content}</p>
+              <p className="infoContent">
+                {e.content} <br />
+                {e.desc && <p>{e.desc}</p>}
+              </p>
             </div>
           );
         })}

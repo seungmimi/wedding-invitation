@@ -86,7 +86,8 @@ const AddBtn = styled.button`
   background-color: #606f48;
   border-radius: 5px;
   color: #fff;
-  height: 38px;
+  height: 42px;
+  font-size: 1rem;
 `;
 
 export type GuestbookType = {
