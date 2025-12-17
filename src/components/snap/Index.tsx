@@ -43,7 +43,7 @@ export default function Snap() {
   const [detailOpen, setDetailOpen] = useState(false);
   const [selectImg, setSelectImg] = useState({ no: 1, url: "" });
 
-  const imgArray = Array.from({ length: 18 }, (_, i) => ({
+  const imgArray = Array.from({ length: 21 }, (_, i) => ({
     no: i + 1,
     url: `${process.env.PUBLIC_URL}/snapImg/${i + 1}.jpg`,
   }));

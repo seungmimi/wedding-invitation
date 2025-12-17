@@ -1,15 +1,18 @@
 import TopDecoTitle from "../../asset/ui/TopDecoTitle";
 import InviBoxBg from "../../asset/invi-box-bg.png";
 import decoImg from "../../asset/deco-img-1.png";
+import BgImg from "../../asset/main-bg-2.png";
 import styled from "styled-components";
 
 const InviBox = styled.section`
   width: 100%;
-  padding: 32px 0;
+  padding: 32px 0 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  background: url(${BgImg}) no-repeat;
+  background-size: cover;
 `;
 
 const TextWrap = styled.div`

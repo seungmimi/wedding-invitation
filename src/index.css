@@ -156,3 +156,6 @@ ul {
 .custom .slick-dots {
   bottom: 50px;
 }
+.custom .slick-slide img {
+  display: inline-block;
+}

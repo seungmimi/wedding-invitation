@@ -7,7 +7,7 @@ import DecoImg from "../../asset/deco-img-1.png";
 import moment from "moment";
 
 import { appFirestore } from "../../fBase";
-import { addDoc, collection, getDocs } from "firebase/firestore";
+import { addDoc, collection, getDocs, query, orderBy } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import AddGuestBookModal from "./AddGuestBookModal";
 
@@ -102,7 +102,7 @@ export default function Guestbook() {
 
   const getGuestbookList = async () => {
     try {
-      const res = await getDocs(collection(appFirestore, "guestbook"));
+      const res = await getDocs(query(collection(appFirestore, "guestbook"), orderBy("date", "desc")));
       if (res) {
         const dataList = res.docs;
         setGuestbookList(

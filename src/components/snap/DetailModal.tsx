@@ -13,6 +13,8 @@ interface DetailModalProps {
 }
 
 const ModalBox = styled.div`
+  background: #fff;
+  border-radius: 15px;
   width: calc(100% - 26px);
   max-width: 540px;
   overflow: hidden;
@@ -20,8 +22,7 @@ const ModalBox = styled.div`
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
-  border-radius: 15px;
+
   img {
     width: 100%;
     aspect-ratio: 1/1.5;

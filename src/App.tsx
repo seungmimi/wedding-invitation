@@ -38,8 +38,13 @@ function App() {
         <Guestbook />
         <Account />
       </main>
-      <footer>
-        <button onClick={shareKakao}>카카오톡 공유</button>
+      <footer className="footer">
+        <div className="share-box">
+          <button className="share-btn" onClick={shareKakao}>
+            <img src="https://developers.kakao.com/assets/img/about/logos/kakaotalksharing/kakaotalk_sharing_btn_medium.png" alt="카카오톡 공유 보내기 버튼" />
+          </button>
+          <span>카카오톡 공유하기</span>
+        </div>
       </footer>
     </div>
   );

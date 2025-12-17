@@ -10,7 +10,28 @@
 .main-wrap {
   margin: 0 auto;
   width: 100%;
-  max-width: 563px;
-  background: url(../src/asset/main-bg.png) no-repeat;
-  background-size: contain;
+  max-width: 500px;
+}
+.footer {
+  padding: 20px 0 50px 0;
+}
+.footer .share-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.footer .share-box .share-btn {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.footer .share-box .share-btn > img {
+  width: 100%;
+}
+.footer .share-box > span {
+  font-size: 18px;
+  font-family: "GangwonEducationModuche";
+  color: #606f48;
 }
