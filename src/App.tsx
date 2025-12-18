@@ -5,10 +5,11 @@ import WeddingDay from "./components/calendar/Index";
 import Invitation from "./components/invitation/Index";
 import MapInfo from "./components/location/Index";
 import Snap from "./components/snap/Index";
-
 import Main from "./components/main/Index";
 import Guestbook from "./components/guestbook";
 import Account from "./components/account";
+
+import FooterBg from "./asset/footer-bg.png";
 
 function App() {
   const kakao = (window as any).Kakao;
@@ -44,6 +45,11 @@ function App() {
             <img src="https://developers.kakao.com/assets/img/about/logos/kakaotalksharing/kakaotalk_sharing_btn_medium.png" alt="카카오톡 공유 보내기 버튼" />
           </button>
           <span>카카오톡 공유하기</span>
+        </div>
+        <img className="footer-bottom-img" src={FooterBg} alt="" />
+        <div className="copy">
+          <p>©2025 Seung Mi & Ki Beom</p>
+          <p>With love, we invite you to our wedding.</p>
         </div>
       </footer>
     </div>

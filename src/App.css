@@ -13,13 +13,14 @@
   max-width: 500px;
 }
 .footer {
-  padding: 20px 0 50px 0;
+  padding-top: 50px;
 }
 .footer .share-box {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
 .footer .share-box .share-btn {
   width: 40px;
@@ -34,4 +35,15 @@
   font-size: 18px;
   font-family: "GangwonEducationModuche";
   color: #606f48;
+}
+.footer .copy {
+  text-align: center;
+  font-size: 0.825rem;
+  color: #fff;
+  padding: 50px 0;
+  background-color: #3f5405;
+}
+.footer .footer-bottom-img {
+  width: 100%;
+  bottom: 0;
 }

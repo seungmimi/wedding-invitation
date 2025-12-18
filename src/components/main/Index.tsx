@@ -108,7 +108,7 @@ export default function Main() {
         <SubTitle>
           <div>
             <span>
-              KI BOM <b>`</b> SEUNG MI
+              KI BEOM <b>`</b> SEUNG MI
             </span>
             <span>WEDDING DAY!</span>
             <div className="line"></div>

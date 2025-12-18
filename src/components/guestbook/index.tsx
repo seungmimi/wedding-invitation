@@ -148,7 +148,7 @@ export default function Guestbook() {
                 </div>
                 <p className="content">{e.content}</p>
                 <div className="obj-footer">
-                  <span className="writing-date">{moment(e.date).format("YYYY.MM.DD HH:mm")}</span>
+                  <span className="writing-date">{e.date}</span>
                 </div>
               </li>
             );
