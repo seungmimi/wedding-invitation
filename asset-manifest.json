@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/wedding-invitation/static/css/main.7b9875a6.css",
-    "main.js": "/wedding-invitation/static/js/main.cb4aebec.js",
+    "main.css": "/wedding-invitation/static/css/main.0182de22.css",
+    "main.js": "/wedding-invitation/static/js/main.1c85d878.js",
     "static/media/BookkMyungjo_Bold.ttf": "/wedding-invitation/static/media/BookkMyungjo_Bold.464cf2f6a040e03a6178.ttf",
     "static/media/BookkMyungjo_Light.ttf": "/wedding-invitation/static/media/BookkMyungjo_Light.6ee65a5a8ef5767684a7.ttf",
     "static/media/Hakgyoansim-Chilpanjiugae-L.ttf": "/wedding-invitation/static/media/Hakgyoansim-Chilpanjiugae-L.21defb520396ebfd97f9.ttf",
     "static/media/main-bg-1.png": "/wedding-invitation/static/media/main-bg-1.df9cd8e66e5d7c888ece.png",
     "static/media/Hakgyoansim-Chilpanjiugae-B.ttf": "/wedding-invitation/static/media/Hakgyoansim-Chilpanjiugae-B.c8125e33610246f70fcc.ttf",
+    "static/media/footer-bg.png": "/wedding-invitation/static/media/footer-bg.efe3adef411ef152c08d.png",
     "static/media/main-bg-2.png": "/wedding-invitation/static/media/main-bg-2.4e0d5bcfedcc5cd58806.png",
     "static/media/Cafe24Behappy.ttf": "/wedding-invitation/static/media/Cafe24Behappy.c3ff7d5e867ee83a9d27.ttf",
     "static/media/Cafe24Meongi-W-v1.0.woff2": "/wedding-invitation/static/media/Cafe24Meongi-W-v1.0.856fbd5b7193aaa2bae8.woff2",
@@ -23,11 +24,11 @@
     "static/media/i-close.svg": "/wedding-invitation/static/media/i-close.10eb6712a99633025720.svg",
     "static/media/i-arrow-down.svg": "/wedding-invitation/static/media/i-arrow-down.8d5853e3966a91f56161.svg",
     "static/media/i-arrow-up.svg": "/wedding-invitation/static/media/i-arrow-up.543963b43e1085d7aa20.svg",
-    "main.7b9875a6.css.map": "/wedding-invitation/static/css/main.7b9875a6.css.map",
-    "main.cb4aebec.js.map": "/wedding-invitation/static/js/main.cb4aebec.js.map"
+    "main.0182de22.css.map": "/wedding-invitation/static/css/main.0182de22.css.map",
+    "main.1c85d878.js.map": "/wedding-invitation/static/js/main.1c85d878.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b9875a6.css",
-    "static/js/main.cb4aebec.js"
+    "static/css/main.0182de22.css",
+    "static/js/main.1c85d878.js"
   ]
 }
