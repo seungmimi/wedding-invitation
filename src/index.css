@@ -34,6 +34,11 @@ img {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 h1,
 h2,
@@ -158,4 +163,22 @@ ul {
 }
 .custom .slick-slide img {
   display: inline-block;
+}
+
+/*==========================toast custom==========================*/
+.custom-toast {
+  background: rgba(0, 0, 0, 0.7); /* 반투명 검정 */
+  color: #fff; /* 글자 흰색 */
+  border-radius: 12px; /* 라운드 모서리 */
+  padding: 12px 20px; /* 여백 조절 */
+  font-size: 1rem;
+  font-weight: 500;
+  min-width: 200px;
+  text-align: center;
+  bottom: 10px;
+  max-width: 330px;
+}
+
+.custom-toast .Toastify__toast-icon {
+  display: none;
 }

@@ -54,19 +54,15 @@ export default function Snap() {
     url: `${process.env.PUBLIC_URL}/snapImg/${i + 1}.jpg`,
   }));
 
-  /** ✅ 전체 이미지 preload (렌더와 무관) */
+  /** ✅ 전체 이미지 preload */
   useEffect(() => {
-    const cache: HTMLImageElement[] = [];
-
     imgArray.forEach((img) => {
-      const image = new Image();
-      image.src = img.url;
-      cache.push(image);
+      const link = document.createElement("link");
+      link.rel = "preload";
+      link.as = "image";
+      link.href = img.url;
+      document.head.appendChild(link);
     });
-
-    return () => {
-      cache.length = 0;
-    };
   }, []);
 
   /** 렌더링용 리스트 */

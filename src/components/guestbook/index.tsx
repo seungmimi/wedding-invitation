@@ -10,6 +10,7 @@ import { appFirestore } from "../../fBase";
 import { addDoc, collection, getDocs, query, orderBy } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import AddGuestBookModal from "./AddGuestBookModal";
+import { toast } from "react-toastify";
 
 const ListBox = styled.ul`
   width: 100%;
@@ -124,9 +125,11 @@ export default function Guestbook() {
       if (res) {
         setAddModalOpen(false);
         getGuestbookList();
+        toast.success("🥰 방명록이 등록되었습니다!");
       }
     } catch (err) {
       console.error(err);
+      toast.success("😰 방명록이 등록에 실패했습니다");
     }
   };
 

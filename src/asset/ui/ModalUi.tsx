@@ -24,7 +24,7 @@ const ModalCloseBtn = styled.button`
   height: 48px;
   border-radius: 100%;
   background: #fff;
-  bottom: 50px;
+  bottom: 10px;
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);

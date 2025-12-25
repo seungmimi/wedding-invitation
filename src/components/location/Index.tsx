@@ -31,9 +31,12 @@ const LocationInfo = styled.div`
     font-family: "GangwonEducationModuche";
     font-size: 1.25rem;
     .infoTitle {
-      width: 80px;
+      width: 75px;
       flex-shrink: 0;
       font-weight: 700;
+    }
+    .desc {
+      font-size: 1rem;
     }
   }
 `;
@@ -53,7 +56,7 @@ export default function MapInfo() {
       </TextBox>
 
       <Map
-        data-aos="fade-up"
+        data-aos="zoom-in"
         id="map"
         center={{
           // 지도의 중심좌표
@@ -84,8 +87,9 @@ export default function MapInfo() {
             <div className="infoObj" key={i}>
               <span className="infoTitle">{e.method}</span>
               <p className="infoContent">
-                {e.content} <br />
-                {e.desc && <span>{e.desc}</span>}
+                {e.content}
+                <br />
+                {e.desc && <span className="desc">{e.desc}</span>}
               </p>
             </div>
           );
