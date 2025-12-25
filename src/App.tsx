@@ -11,6 +11,7 @@ import Account from "./components/account";
 import FooterBg from "./asset/footer-bg.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ConfettiAnimation from "./asset/ui/ConfettiAnimation";
 
 function App() {
   const kakao = (window as any).Kakao;
@@ -34,6 +35,7 @@ function App() {
   };
   return (
     <div className="App">
+      <ConfettiAnimation />
       <main className="main-wrap">
         <Main />
         <Invitation />
