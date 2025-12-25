@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 import BoxBg from "../../asset/guestbook-box.png";
 import DecoImg from "../../asset/deco-img-1.png";
-import moment from "moment";
 
 import { appFirestore } from "../../fBase";
 import { addDoc, collection, getDocs, query, orderBy } from "firebase/firestore";

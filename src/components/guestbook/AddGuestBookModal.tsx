@@ -5,6 +5,7 @@ import { useState } from "react";
 
 import { GuestbookType } from ".";
 import moment from "moment";
+import { toast } from "react-toastify";
 
 interface AddModalProps {
   closeModal: () => void;
@@ -76,6 +77,14 @@ export default function AddGuestBookModal(props: AddModalProps) {
   const [writer, setWriter] = useState("");
 
   const handleSubmit = () => {
+    if (content === "") {
+      toast.success("✏️ 내용을 입력해 주세요");
+      return;
+    }
+    if (writer === "") {
+      toast.success("✏️ 작성자를 입력해 주세요");
+      return;
+    }
     const submitData = {
       content: content,
       name: writer,
@@ -93,12 +102,10 @@ export default function AddGuestBookModal(props: AddModalProps) {
             <FormBox>
               <span>내용*</span>
               <textarea value={content} onChange={(e) => setContent(e.target.value)} maxLength={500} />
-              <p className="err-msg">* 내용을 입력해주세요</p>
             </FormBox>
             <FormBox>
               <span>작성자*</span>
               <input type="text" value={writer} onChange={(e) => setWriter(e.target.value)} maxLength={100} />
-              <p className="err-msg">* 작성자를 입력해주세요</p>
             </FormBox>
             <button className="submit-btn" type="button" onClick={handleSubmit}>
               작성하기

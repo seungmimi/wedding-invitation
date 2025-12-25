@@ -23,6 +23,7 @@ function App() {
       kakao.init(process.env.REACT_APP_KAKAOSDK_KEY);
     }
   }, []);
+
   const shareKakao = () => {
     const kakao = (window as any).Kakao;
     if (kakao && kakao.Share && typeof kakao.Share.sendCustom === "function") {
