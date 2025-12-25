@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding-invitation/static/css/main.10f33a05.css",
-    "main.js": "/wedding-invitation/static/js/main.00696932.js",
+    "main.css": "/wedding-invitation/static/css/main.a116a13d.css",
+    "main.js": "/wedding-invitation/static/js/main.f377f91c.js",
     "static/media/BookkMyungjo_Bold.ttf": "/wedding-invitation/static/media/BookkMyungjo_Bold.464cf2f6a040e03a6178.ttf",
     "static/media/BookkMyungjo_Light.ttf": "/wedding-invitation/static/media/BookkMyungjo_Light.6ee65a5a8ef5767684a7.ttf",
     "static/media/Hakgyoansim-Chilpanjiugae-L.ttf": "/wedding-invitation/static/media/Hakgyoansim-Chilpanjiugae-L.21defb520396ebfd97f9.ttf",
@@ -24,11 +24,11 @@
     "static/media/i-close.svg": "/wedding-invitation/static/media/i-close.10eb6712a99633025720.svg",
     "static/media/i-arrow-down.svg": "/wedding-invitation/static/media/i-arrow-down.8d5853e3966a91f56161.svg",
     "static/media/i-arrow-up.svg": "/wedding-invitation/static/media/i-arrow-up.543963b43e1085d7aa20.svg",
-    "main.10f33a05.css.map": "/wedding-invitation/static/css/main.10f33a05.css.map",
-    "main.00696932.js.map": "/wedding-invitation/static/js/main.00696932.js.map"
+    "main.a116a13d.css.map": "/wedding-invitation/static/css/main.a116a13d.css.map",
+    "main.f377f91c.js.map": "/wedding-invitation/static/js/main.f377f91c.js.map"
   },
   "entrypoints": [
-    "static/css/main.10f33a05.css",
-    "static/js/main.00696932.js"
+    "static/css/main.a116a13d.css",
+    "static/js/main.f377f91c.js"
   ]
 }
