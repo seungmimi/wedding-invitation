@@ -8,12 +8,16 @@ import Snap from "./components/snap/Index";
 import Main from "./components/main/Index";
 import Guestbook from "./components/guestbook";
 import Account from "./components/account";
-
 import FooterBg from "./asset/footer-bg.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const kakao = (window as any).Kakao;
   useEffect(() => {
+    AOS.init({
+      duration: 800,
+    });
     if (kakao && !kakao.isInitialized()) {
       kakao.init(process.env.REACT_APP_KAKAOSDK_KEY);
     }

@@ -137,7 +137,7 @@ export default function Guestbook() {
     <>
       <Box className="bg-white">
         <TopDecoTitle>GUESTBOOK</TopDecoTitle>
-        <ListBox>
+        <ListBox data-aos="fade-up">
           {guestbookList?.map((e, i) => {
             return (
               <li key={e.id}>
@@ -154,7 +154,9 @@ export default function Guestbook() {
             );
           })}
         </ListBox>
-        <AddBtn onClick={() => setAddModalOpen(true)}>방명록 작성하기</AddBtn>
+        <AddBtn onClick={() => setAddModalOpen(true)} data-aos="fade-up">
+          방명록 작성하기
+        </AddBtn>
       </Box>
       {addModalOpen && <AddGuestBookModal closeModal={() => setAddModalOpen(false)} addDoc={addGuestbook} />}
     </>

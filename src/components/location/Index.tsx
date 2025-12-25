@@ -47,12 +47,13 @@ export default function MapInfo() {
   return (
     <Box>
       <TopDecoTitle>LOCATION</TopDecoTitle>
-      <TextBox>
+      <TextBox data-aos="fade-up">
         <h3>파티오벨라 마리에 가든홀 1F</h3>
         <span>경기도 안양시 동안구 시민대로159번길 25</span>
       </TextBox>
 
       <Map
+        data-aos="fade-up"
         id="map"
         center={{
           // 지도의 중심좌표
@@ -77,14 +78,14 @@ export default function MapInfo() {
         ></MapMarker>
       </Map>
 
-      <LocationInfo>
+      <LocationInfo data-aos="fade-up">
         {locationInfo.map((e, i) => {
           return (
             <div className="infoObj" key={i}>
               <span className="infoTitle">{e.method}</span>
               <p className="infoContent">
                 {e.content} <br />
-                {e.desc && <p>{e.desc}</p>}
+                {e.desc && <span>{e.desc}</span>}
               </p>
             </div>
           );

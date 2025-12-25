@@ -56,7 +56,7 @@ const TextBox = styled.p`
 export default function Invitation() {
   return (
     <InviBox>
-      <TextWrap>
+      <TextWrap data-aos="fade-up">
         <TopDecoTitle>INVITATION</TopDecoTitle>
         <SubTitle>소중한 분들을 초대합니다</SubTitle>
         <TextBox>

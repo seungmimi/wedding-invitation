@@ -74,13 +74,13 @@ export default function WeddingDay() {
   return (
     <Box>
       <TopDecoTitle>WEDDING DAY</TopDecoTitle>
-      <TextBpx>
+      <TextBpx data-aos="fade-up">
         <strong>2026.04.11</strong>
         <span>
           토요일 오전 <b>11시</b>
         </span>
       </TextBpx>
-      <CalendarBox>
+      <CalendarBox data-aos="zoom-in">
         <img src={decoLine} alt="" />
         <Calendar />
         <img src={decoLine} alt="" />

@@ -95,18 +95,20 @@ export default function Main() {
   return (
     <MainBox>
       <TitleBox position="top">
-        <Title1 />
-        <MainTitle>
-          Happily
-          <br />
-          ever
-          <br />
-          after
-        </MainTitle>
+        <div data-aos="fade-down">
+          <Title1 />
+          <MainTitle>
+            Happily
+            <br />
+            ever
+            <br />
+            after
+          </MainTitle>
+        </div>
       </TitleBox>
       <TitleBox position="bottom">
         <SubTitle>
-          <div>
+          <div data-aos="fade-up">
             <span>
               KI BEOM <b>`</b> SEUNG MI
             </span>
