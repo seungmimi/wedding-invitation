@@ -59,13 +59,14 @@ const AccordionBox = styled.div`
   .a-content-box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     border-radius: 5px;
     background-color: #e7e9e7;
-    overflow: scroll;
+    overflow-y: auto;
     height: 0;
     transition: height 0.2s;
     &.open {
-      height: 230px;
+      height: 250px;
     }
   }
 
