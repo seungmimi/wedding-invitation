@@ -54,6 +54,10 @@ const AccordionBox = styled.div`
       margin-left: auto;
       transition: all 0.2s;
     }
+    span {
+      font-family: "GangwonEducationModuche";
+      font-weight: 700;
+    }
   }
 
   .a-content-box {
