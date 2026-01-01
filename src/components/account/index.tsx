@@ -144,8 +144,8 @@ export default function Account() {
     { name: "임기범", account: "국민은행 620602-01-338737" },
   ];
   const accountListB: AccountItem[] = [
-    { name: "이재희", account: "준비중 입니다" },
-    { name: "박미실", account: "준비중 입니다" },
+    { name: "이재희", account: "신한은행 110-373-825543" },
+    { name: "박미실", account: "국민은행 620602-97-102261" },
     { name: "이승미", account: "기업은행 233-108073-01-017" },
   ];
 

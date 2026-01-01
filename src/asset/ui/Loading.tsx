@@ -36,6 +36,8 @@ const CenterBox = styled.div`
     color: #1a3512;
     font-size: 1.2rem;
     span {
+      font-size: 2.4rem;
+      font-family: "Cafe24Behappy";
       b {
         font-family: "Cafe24Behappy";
         color: #d77200;
